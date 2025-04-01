@@ -4,11 +4,11 @@
 ## Purpose
 Despite having a 5-din male jack, often used by standard MIDI devices, the Monterey MK-9500 **does not output standard MIDI**. It outputs a combination of standard PS2 computer keys. These combinations were used by the old MS-DOS software that came with the original CD.
 
-This implementation will interpret the non-standard output and allow you to use your Monterey MK 9500 in any modern machine or synthesizer that supports standard MIDI over USB.
+This implementation will interpret the non-standard output and allow you to use your Monterey MK-9500 in any modern machine or synthesizer that supports standard MIDI over USB.
 
 
 ## Materials
-- Monterey-MK-9500 Keyboard
+- Monterey MK-9500 Keyboard
 - An Arduino
     - Uno [^1] or Mega - Requires flashing [MIDI firmware](#the-midi-firmware-usbmidiklik)
     - Arduinos with an ATMEGA32U4 microcontroller (Pro Micro, Micro, Leonardo) apparently work out-of-the-box without custom firmware. **I did not test this.**
