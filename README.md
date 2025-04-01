@@ -4,7 +4,7 @@
 ## Materials
 - Monterey-MK-9500 Keyboard
 - An Arduino
-    - Uno [^1] or Mega - Requires flashing [MIDI firmware](#the-midi-firmware)
+    - Uno [^1] or Mega - Requires flashing [MIDI firmware](#the-midi-firmware-usbmidiklik)
     - Arduinos with an ATMEGA32U4 microcontroller (Pro Micro, Micro, Leonardo) apparently work out-of-the-box without custom firmware. **I did not test this.**
 - 5-din female jack/cable
 - (Optional) Breadboard/Perf board/PCB
@@ -15,18 +15,22 @@
 ## Using your Arduino as a MIDI device
 This process will allow you to transform your Arduino into a fully MIDI-compliant device. 
 
-This is process is a toggle. You will retain normal Arduino features through an easy shunt to the ICSP pins.
+This is process is a toggle. You will retain normal Arduino features through an easy shunt to the ICSP pins. You will be able to toggle between normal Arduino programming and it being recognized as a MIDI-compliant device.
 
 ### The MIDI firmware (USBMidiKliK)
+**Before you begin:** The following steps seem to be exclusive to the Arduino Uno and Mega (and those with a ATMEGA16U2 microcontroller). 
+
+**Although I have not tested this**, Arduinos with an ATMEGA32U4 microcontroller (Pro Micro, Micro, Leonardo) apparently work out-of-the-box without custom firmware.
+
 This process requires you to flash the [USBMidiKliK](https://github.com/TheKikGen/USBMidiKliK) firmware into your Arduino - "A robust USB MIDI Arduino firmware, with a dual bootloader, based on the last version of the LUFA library"
 
-#### Using my pre-compiled firmware
+#### Option 1: Using my pre-compiled firmware
 Out of convenience I provide along with this repository, pre-compiled firmware files.
 https://github.com/alxcost/Monterey-MK-9500-MIDI/releases
 
 If you find any issues, please try [compiling your own](#compiling-usbmidiklik).
 
-#### Compiling USBMidiKliK
+#### Option 2: Compiling USBMidiKliK
 This section is almost a word-for-word instructions from the [official documention](https://github.com/TheKikGen/USBMidiKliK/tree/409fb99691630ee7a0cee8a2307253d8f55b18cd?tab=readme-ov-file#how-to-compile-the-firmware).
 However I'm still documenting what has worked for me.
 
