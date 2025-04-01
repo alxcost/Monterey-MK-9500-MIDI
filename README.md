@@ -1,8 +1,8 @@
 # Monterey MK-9500 MIDI
-🎹 -> 🎼 Arduino program to convert inputs from the Monterey MK 9500 piano to a MIDI standard output. 
+🎹 -> 🎼 Arduino program to convert inputs from the Monterey MK-9500 piano to a MIDI standard output. 
 
 ## Purpose
-Despite having a 5-din male jack, often used by standard MIDI devices, the Monterey MK 9500 **does not output standard MIDI**. It outputs a combination of standard PS2 computer keys. These combinations were used by the old MS-DOS software that came with the original CD.
+Despite having a 5-din male jack, often used by standard MIDI devices, the Monterey MK-9500 **does not output standard MIDI**. It outputs a combination of standard PS2 computer keys. These combinations were used by the old MS-DOS software that came with the original CD.
 
 This implementation will interpret the non-standard output and allow you to use your Monterey MK 9500 in any modern machine or synthesizer that supports standard MIDI over USB.
 
