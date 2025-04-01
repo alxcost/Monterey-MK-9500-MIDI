@@ -12,15 +12,15 @@
 
 [^1]: Note on Arduino Uno clones: The original Atmega8U2 or 16U2 chips might not be present and instead use a cheap knockoff which has insufficient capacity to store this firmware.
 
-## Using your Arduino as a MIDI device
+### The MIDI firmware (USBMidiKliK)
 This process will allow you to transform your Arduino into a fully MIDI-compliant device. 
 
 This is process is a toggle. You will retain normal Arduino features through an easy shunt to the ICSP pins. You will be able to toggle between normal Arduino programming and it being recognized as a MIDI-compliant device.
 
-### The MIDI firmware (USBMidiKliK)
-**Before you begin:** The following steps seem to be exclusive to the Arduino Uno and Mega (and those with a ATMEGA16U2 microcontroller). 
+**Note:** The following steps seem to be exclusive to the Arduino Uno and Mega (and those with a ATMEGA16U2 microcontroller). 
 
 **Although I have not tested this**, Arduinos with an ATMEGA32U4 microcontroller (Pro Micro, Micro, Leonardo) apparently work out-of-the-box without custom firmware.
+
 
 This process requires you to flash the [USBMidiKliK](https://github.com/TheKikGen/USBMidiKliK) firmware into your Arduino - "A robust USB MIDI Arduino firmware, with a dual bootloader, based on the last version of the LUFA library"
 
