@@ -18,7 +18,7 @@ This implementation will interpret the non-standard output and allow you to use 
 
 [^1]: Note on Arduino Uno clones: The original Atmega8U2 or 16U2 chips might not be present and instead use a cheap knockoff which has insufficient capacity to store this firmware.
 
-### The MIDI firmware (USBMidiKliK)
+## MIDI firmware (USBMidiKliK)
 This process will allow you to transform your Arduino into a fully MIDI-compliant device. 
 
 This is process is a toggle. You will retain normal Arduino features through an easy shunt to the ICSP pins. You will be able to toggle between normal Arduino programming and it being recognized as a MIDI-compliant device.
@@ -30,13 +30,13 @@ This is process is a toggle. You will retain normal Arduino features through an 
 
 This process requires you to flash the [USBMidiKliK](https://github.com/TheKikGen/USBMidiKliK) firmware into your Arduino - "A robust USB MIDI Arduino firmware, with a dual bootloader, based on the last version of the LUFA library"
 
-#### Option 1: Using my pre-compiled firmware
+### Option 1: Using my pre-compiled firmware
 Out of convenience I provide along with this repository, pre-compiled firmware files.
 https://github.com/alxcost/Monterey-MK-9500-MIDI/releases
 
 If you find any issues, please try [compiling your own](#compiling-usbmidiklik).
 
-#### Option 2: Compiling USBMidiKliK
+### Option 2: Compiling USBMidiKliK
 This section is almost a word-for-word instructions from the [official documention](https://github.com/TheKikGen/USBMidiKliK/tree/409fb99691630ee7a0cee8a2307253d8f55b18cd?tab=readme-ov-file#how-to-compile-the-firmware).
 However I'm still documenting what has worked for me.
 
