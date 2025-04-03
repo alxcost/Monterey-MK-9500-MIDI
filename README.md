@@ -11,7 +11,7 @@ This implementation will interpret the non-standard output and allow you to use 
 - Monterey MK-9500 Keyboard
 - An Arduino
     - Uno [^1] or Mega - Requires flashing [MIDI firmware](#the-midi-firmware-usbmidiklik)
-    - Arduinos with an ATMEGA32U4 microcontroller (Pro Micro, Micro, Leonardo) apparently work out-of-the-box without custom firmware. **I did not test this.**
+    - Arduinos with an ATMEGA32U4 microcontroller (Pro Micro, Micro, Leonardo) apparently work out-of-the-box without custom firmware - But I do not own one to confirm this.
 - 5-din female jack/cable
 - (Optional) Breadboard/Perf board/PCB
   - This is optional but it makes it easier to connect everything between your arduino as seen in [Circuit and Connections](#circuit-and-connections)
