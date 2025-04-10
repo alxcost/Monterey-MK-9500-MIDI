@@ -57,8 +57,13 @@ Connect your Arduino board to USB. Touch briefly pins 5-6 of the ISCP1 header to
 
 ## Circuit and Connections
 
+### Arduino Mega connections
 
+![Arduino Mega connections](assets/Mega_Connections.png)
 
+### Arduino Uno connections
+
+![Arduino Uno connections](assets/Uno_Connections.png)
 
 ## TODO
 - Include custom firmware flashing instructions
