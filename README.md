@@ -68,13 +68,16 @@ Connect your Arduino board to USB. Touch briefly pins 5-6 of the ISCP1 header to
 ## Final steps
 
 - On your Arduino, jump the ICSP pins for the 16U2 pins in the following manner - This will put your Arduino in "normal operation mode":
+  
 ![ICSP_16U2_ArduinoMode](assets/ICSP_16U2_ArduinoMode.png)
 
 - Connect your Arduino via USB
 - Compile [monterey-midi.ino](monterey-midi.ino) into your Arduino
 - Disconnect your Arduino
 - Jump the ICSP pins for the 16U2 pins in the following manner - This will put your Arduino in "MIDI operation mode":
+  
 ![ICSP_16U2_MIDIMode](assets/ICSP_16U2_MIDIMode.png)
+
 - Recconnect your Arduino via USB
 - It should now be detected as a MIDI-compliant device
 
