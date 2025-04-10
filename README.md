@@ -66,6 +66,5 @@ Connect your Arduino board to USB. Touch briefly pins 5-6 of the ISCP1 header to
 ![Arduino Uno connections](assets/Uno_Connections.png)
 
 ## TODO
-- Include custom firmware flashing instructions
 - Implement key velocity 
 - Implement octave changes
