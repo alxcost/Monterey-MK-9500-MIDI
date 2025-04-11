@@ -14,7 +14,7 @@ This implementation will interpret the non-standard output and allow you to use 
     - Arduinos with an ATMEGA32U4 microcontroller (Pro Micro, Micro, Leonardo) apparently work out-of-the-box without custom firmware - But I do not own one to confirm this.
 - 5-din female jack/cable
 - (Optional) Breadboard/Perf board/PCB
-  - This is optional but it makes it easier to connect everything between your arduino as seen in [Circuit and Connections](#circuit-and-connections)
+  - This is optional but it makes it easier to connect everything between your Arduino as seen in [Circuit and Connections](#circuit-and-connections)
 
 [^1]: Note on Arduino Uno clones: The original Atmega8U2 or 16U2 chips might not be present and instead use a cheap knockoff which has insufficient capacity to store this firmware.
 
@@ -78,7 +78,7 @@ Connect your Arduino board to USB. Touch briefly pins 5-6 of the ISCP1 header to
   
 ![ICSP_16U2_MIDIMode](assets/ICSP_16U2_MIDIMode.png)
 
-- Recconnect your Arduino via USB
+- Reconnect your Arduino via USB
 - It should now be detected as a MIDI-compliant device
 
 ## TODO
